@@ -8,7 +8,7 @@
 
 - Chose pointers that point to something as close to the object you want to access as possible. It's better to write `lp->type` than `parent->link[i].type`. If you need to access the next element in the link array, you can always do `(++lp)->type` instead of `parent->link[++i].type`.
 
-- Procedure names should reflect what they *do*; function names should reflect what they *return*. Consider `if(checksize(x))` vs `if(validsize(x))`. The latter is preferred because we are naming a function, and it returns whether x is a valid size.
+- Procedure names should reflect what they *do*; function names should reflect what they *return*. Consider `if(checksize(x))` vs `if(validsize(x))`. The latter is preferred because we are naming a function, and it returns whether `x` is a valid size.
 
 - Comment that explain how data structures are used are generally more useful than comments that explain algorithms.
 
