@@ -2,7 +2,7 @@
 
 - Consider the relationship between variable name length and the frequency that it is used. It's acceptable for a rarely used global variable to have a long name (say `maxphysaddr`), but something like a dummy variable for looping should be something simple (like `i`).
 
-- Symmetry is a virture in variable names. If if you have a variable called `maxphysaddr`, you should name it's counterpart `minphysaddr`, NOT `lowestphysaddr`.
+- Symmetry is a virture in variable names. If if you have a variable called `maxphysaddr`, you should name it's counterpart `minphysaddr`, *not* `lowestphysaddr`.
 
 - Rob Pike doesn't like camel case.
 
