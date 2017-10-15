@@ -10,7 +10,7 @@
 
 - Procedure names should reflect what they *do*; function names should reflect what they *return*. Consider `if(checksize(x))` vs `if(validsize(x))`. The latter is preferred because we are naming a function, and it returns whether `x` is a valid size.
 
-- Comment that explain how data structures are used are generally more useful than comments that explain algorithms.
+- **Comment that explain how data structures are used are generally more useful than comments that explain algorithms.** Reflecting on these pieces of adivce a few weeks after reading them initially, this turned out to be the single best piece of advice.
 
 - Reducing microscopic complexity of a program is more straightforward than reducing macrosope complexity (i.e. complexity that is a result of overall program design). Don't try to do fancy things (like use splay trees) when something simple (like binary trees) is available. Most of the time, fancy tricks don't improve anything because `n` is small. Fancy algorithms are buggier than simple ones and take more time to implement. Almost all practical problems can be solved with arrays, linked lists, hash tables, and binary trees.
 
