@@ -68,7 +68,7 @@ func split(sum int) (x, y int) {
 - Go's *basic types* are `bool`, `string`, `byte` (alias for `uint8`), `rune` (alias for `int32`, used for Unicode code points), `int`,  `int8`, `uint8`  `int16`,  `int32`,  `int64`, `uint`, `uint8`, `uint16`, `uint32`, `uint64`, `uintptr`, `float32`, `float64`, `complex64`, `complex128`
     - The size of `int`, `uint` and `uintptr` depend on the machine word size. Like C, `int` is a pretty good choice for when you need an integer, unless you have a reason to use something else.
 
-- The `var` statement can also be factored like the import statement. For example,
+- The `var` statement can also be factored like the `import` statement. For example,
 ```
 var (
     ToBe   bool       = false
