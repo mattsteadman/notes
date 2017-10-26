@@ -82,7 +82,7 @@ var (
     - The zero value for `bool` is `false`.
     - The zero value for strings is the empty string `""`.
 
-- Each type can be used like a function for type conversion. The expression `T(v)` returns the value `v` converted to the type `v`. For example, `f := float64(i)` declares `f` as a `i` converted to a `float64`.
+- Each type can be used like a function for type conversion. The expression `T(v)` returns the value `v` converted to the type `T`. For example, `f := float64(i)` declares `f` as a `i` converted to a `float64`.
     - Unlike C, implicit type conversion is *not* allowed!
 
 - When determining the type of a numeric constant, Go figures out the type based on the precision of the number. For example, `i := 42` declares an `int`, whereas `f := 3.14159` declares a `float64`.
