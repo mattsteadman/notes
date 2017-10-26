@@ -42,7 +42,7 @@ func swap(x, y string) (string, string) {
 }
 ```
 
-- Return values can be named. Named returned values are only defined *within* the function whence they are returned. If you name your return value(s), then you don't need to name the variable to be returned in your return statement, you can just say `return`. This is called a *naked return statement*, use them with care as they can make things more confusing in long functions.
+- Return values can be named. Named returned values are only defined *within* the function whence they are returned. If you name your return value(s), then you don't need to name the variable to be returned in your return statement, you can just say `return`. This is called a *naked return statement*, use them with care as they can make things more confusing in long functions. For example,
 ```
 func split(sum int) (x, y int) {
     x = sum * 4 / 9
@@ -56,7 +56,7 @@ func split(sum int) (x, y int) {
 
 - To declare a variable, you must use the `var` statement. 
     - The `var` statement can be used to declare a list of variables, just like a function argument list.  For example, `var a, b, c int`.
-    - If you provide initial values for a variable, you can omit the type in the declaration and Go wil determine the type automatically. For example, `var i, j = 1, 2`
+    - If you provide initial values for a variable, you can omit the type in the declaration and Go will determine the type automatically. For example, `var i, j = 1, 2`
 
 - Variables can also be assigned values in a list fashion. For example, `a, b, c = 1, 2, 3`.
 
