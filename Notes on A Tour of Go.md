@@ -11,7 +11,7 @@ import "fmt"
 import "math/rand"
 ```
 you can write
-```
+```go
 import (
     "fmt"
     "math/cmplx"
@@ -29,14 +29,14 @@ import (
 - `x int, y int` can be shortened to `x, y int`.
 
 - Return types comes after function name and arguments:
-```
+```go
 func add(x int, y int) int {
     return x + y
 }
 ```
 
 - Functions can return more than one result. This function returns two strings:
-```
+```go
 func swap(x, y string) (string, string) {
     return y, x
 }
@@ -45,7 +45,7 @@ func swap(x, y string) (string, string) {
 - Return values can be named. 
     - Named returned values are only defined *within* the function whence they are returned. 
     - If you name your return value(s), then you don't need to name the variable to be returned in your `return` statement, you can just say `return`. This is called a *naked return statement*, use them with care as they can make things more confusing in long functions. For example,
-```
+```go
 func split(sum int) (x, y int) {
     x = sum * 4 / 9
     y = sum - x
@@ -69,7 +69,7 @@ func split(sum int) (x, y int) {
     - The size of `int`, `uint` and `uintptr` depend on the machine word size. Like C, `int` is a pretty good choice for when you need an integer, unless you have a reason to use something else.
 
 - The `var` statement can also be factored like the `import` statement. For example,
-```
+```go
 var (
     ToBe   bool       = false
     MaxInt uint64     = 1<<64 - 1
@@ -100,41 +100,46 @@ var (
     - The post statement, executed at the end of every iteration
 
 - For example,
-```
+```go
 for i := 0; i < 10; i++ {
+    //...
 }
 ```
 
 - Short assignment statements are valid init statements (e.g. `i := 1`).
 
 - The init and post statements are *optional*. For example,
-```
+```go
 for ; sum < 1000; {
+    //...
 }
 ```
 
 - You can even drop the semicolons, and just use it as you would a while statement:
-```
+```go
 for sum < 1000 {
+    //...
 }
 ```
 
 - Actually, the conditional statement is optional too. An infinite loop looks like this:
-```
+```go
 for {
+    //...
 }
 ```
 
 ### If
 
 - Syntax for Go's `if` statement is similar to the `for` statement: parentheses are not needed, but braces are required. For example,
-```
+```go
 if x < 0 {
+    //...
 }
 ```
 
 - Unlike C, `if` statements in Go can include init statements just like a `for` statement. For example,
-```
+```go
 if v := math.Pow(x, n); v < lim {
     return v
 }
@@ -145,7 +150,7 @@ if v := math.Pow(x, n); v < lim {
 ### Switch
 
 - The `switch` statement in Go can also include an init condition. For example,
-```
+```go
 switch os := runtime.GOOS; os {
 case "darwin":
     fmt.Println("OS X.")
@@ -171,7 +176,7 @@ default:
 ### Defer
 
 - The `defer` statement evaluates the arguments of a function call, but defers the evaluation of the function itself until surrounding functions have been evaluated. For example, the following program prints `hello\nworld`
-```
+```go
 package main
 
 import "fmt"
