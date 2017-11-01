@@ -1,0 +1,41 @@
+### Windows Shortcuts I find Useful
+
+#### Windows
+|Shortcut                      | Function                                                                     |
+|------------------------------|------------------------------------------------------------------------------|
+|`Shift` + `F10`               | Right click                                                                  |
+|`Win` + `Up`/`Down`           | Cycle through minimized/restored/maximized of selected window                |
+|`Win` + `Left`/`Right`        | Dock current window to different positions                                   |
+|`Win` + `T`                   | Select task bar items                                                        |
+|`Win` + `B`                   | Select system tray                                                           |
+|`Win` + `E`                   | Explorer window                                                              |
+|`Win` + `R`                   | Run window                                                                   |
+|`Win` + `P`                   | Selecting mode of muliple displays (select the "Presentation Display Mode")  |
+|`Win` + `number`              | Select window in position [num] in task bar                                  |
+|`Win` + `Pause`               | Open system properties                                                       |
+|`Ctrl` + `Shift` + `Esc`      | Task Manager                                                                 |
+
+### Windows Explorer
+
+|Shortcut                | Function            |
+|------------------------|---------------------|
+|`Alt` + `Up`            |  Go up one level    |
+|`F2`                    |  Rename             |
+|`Alt` + `Enter`         |  Property window    |
+|`Ctrl` + `Shift` + `N`  |  New folder         |
+
+#### Sublime Text
+
+|Shortcut                      | Function                                           |
+|------------------------------|----------------------------------------------------|
+|`Ctrl` + `Tab`                |Change Tab                                          |
+|`Ctrl` + `Shift` + `Tab`      |Change Tab (other direction)                        |
+|`Ctrl` + `W`                  |Close Tab                                           |
+|`Ctrl` + `N`                  |New Tab                                             |
+|`Ctrl` + `Space`              |Auto-complete                                       |
+|`F3`                          |Select next instance of selected ("find next")      |
+|`Shift` + `F3`                |Select prev instance of selected ("find prev")      |
+|`Alt` + `F3`                  |Multi-select all instances of selected ("find all") |
+|`F6`                          |Toggle spell checker                                |
+|`Ctrl` + `G`                  |Go to line                                          |
+|`Ctrl` + `M`                  |Go to matching bracket                              |
