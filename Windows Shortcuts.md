@@ -30,8 +30,8 @@
 |------------------------------|----------------------------------------------------|
 |`Ctrl` + `Tab`                |Change Tab                                          |
 |`Ctrl` + `Shift` + `Tab`      |Change Tab (other direction)                        |
-|`Ctrl` + `W`                  |Close Tab ("**w**indow?)                            |
-|`Ctrl` + `N`                  |**N**ew Tab                                          |
+|`Ctrl` + `W`                  |Close Tab ("**w**indow"?)                           |
+|`Ctrl` + `N`                  |**N**ew Tab                                         |
 |`Ctrl` + `Space`              |Auto-complete                                       |
 |`F3`                          |Select next instance of selected ("find next")      |
 |`Shift` + `F3`                |Select prev instance of selected ("find prev")      |
