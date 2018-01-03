@@ -8,7 +8,7 @@
 |JFK          | John F. Kennedy International Airport              | New York             | **J**ohn **F**. **K**ennedy                                                                      |
 |DEN          | Denver International Airport                       | Denver               | **Den**ver                                                                                       |
 |SFO          | San Francisco International Airport                | San Francisco        | **S**an **F**rancisc**o**                                                                        |
-|LAS          | McCarran International Airport                     | Las Vegas            | **Las*** Vegas                                                                                   |
+|LAS          | McCarran International Airport                     | Las Vegas            | **Las** Vegas                                                                                   |
 |SEA          | Seattle-Tacoma International Airport               | Seattle              | **Sea**ttle                                                                                      |
 |MIA          | Miami International Airport                        | Miami                | **Mia**mi                                                                                        |
 |CLT          | Charlotte Douglas International Airport            | Charlotte            | **C**har**l**o**t**te                                                                            |
