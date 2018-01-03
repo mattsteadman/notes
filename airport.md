@@ -12,7 +12,7 @@
 |SEA          | Seattle-Tacoma International Airport               | Seattle              | **Sea**ttle                                                                                      |
 |MIA          | Miami International Airport                        | Miami                | **Mia**mi                                                                                        |
 |CLT          | Charlotte Douglas International Airport            | Charlotte            | **C**har**l**o**t**te                                                                            |
-|PHX          | Phoenix Sky Harbor International Airport           | Phoenix              | **Ph**oeni**c**                                                                                  |
+|PHX          | Phoenix Sky Harbor International Airport           | Phoenix              | **Ph**oeni**x**                                                                                  |
 |MCO          | Orlando International Airport                      | Orlando              | previously called **M**c**Co**y Air Force Base                                                   |
 |EWR          | Newark Liberty International Airport               | Newark               | N**ew**a**r**k (names starting with N were reserved for the Navy)                                |
 |MSP          | Minneapolis/St Paul International Airport          | Minneapolis          | **M**inneapolis / **S**t. **P**aul                                                               |
