@@ -48,12 +48,9 @@ Joins the intersection between the two columns in the joined tables
             two tables that include common column names. The natural join of
             two tables R and S is the set of all combinations of rows in 
             R and S that are equal on their common column ("attribute") names.
-
             - Natural join is the relational counterpart to a logical AND.
-
             - A natural join doesn't require a join-predicate, because it uses
             common column names as the implicit predicate.
-
             - Natural joins are considered harmful, because inadvertantly naming
             two unrelated columns the same in two different tables can create 
             unintented effects.
