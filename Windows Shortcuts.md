@@ -17,12 +17,12 @@
 
 ### Windows Explorer
 
-|Shortcut                | Function            |
-|------------------------|---------------------|
-|`Alt` + `Up`            |  Go up one level    |
-|`F2`                    |  Rename             |
-|`Alt` + `Enter`         |  Property window    |
-|`Ctrl` + `Shift` + `N`  |  **N**ew folder     |
+|Shortcut                | Function                               |
+|------------------------|----------------------------------------|
+|`Alt` + `Up`            |  Go up one level in the directory tree |
+|`F2`                    |  Rename                                |
+|`Alt` + `Enter`         |  Property window                       |
+|`Ctrl` + `Shift` + `N`  |  **N**ew folder                        |
 
 #### Sublime Text
 
