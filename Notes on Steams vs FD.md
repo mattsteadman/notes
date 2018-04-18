@@ -34,4 +34,4 @@
 
     - File position on a file descriptor is just an integer which is initialized to 0 and incremented with each written character.
 
-    - Not all files support random-access (this is, the seek operation). You will receive the error `ESPIPE` ("error due to seeking on a pipe").
+    - Not all files support random-access (this is, the seek operation). You will receive the error `ESPIPE` ("error due to seeking on a pipe [or socket or FIFO]").
