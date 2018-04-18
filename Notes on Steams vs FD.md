@@ -27,10 +27,10 @@
 
 - File descriptors are a POSIX feature, whereas streams are an ISO C feature. Therefore, streams are more portable than file descriptors. Non-POSIX systems are free to implement streams using something besides file descriptors under the hood.
 
-- File descriptors are implemented within the kernel of unix-like systems. The standard library gives you access to the system call interface, so that's why it includes the file descriptor concept. Streams are a concept invented by the standard C library to give you access to a simple parser for the most common kinds of I/O (using `printf` and `scanf`).
+  - File descriptors are implemented within the kernel of unix-like systems. The standard library gives you access to the system call interface, so that's why it includes the file descriptor concept. Streams are a concept invented by the standard C library to give you access to a simple parser for the most common kinds of I/O (using `printf` and `scanf`).
 
 
-- File position: file position is one of the attributes of a file. Therefore, streams and file descriptors (which both provide communication channels to files) both have file position as one of their attributes. File position on a stream can be changed with the `fseek` function, and file position on a file descriptor can be changed using the `lseek` function.
+- *File position* is one of the attributes of a file. Therefore, streams and file descriptors (which both provide communication channels to files) both have file position as one of their attributes. File position on a stream can be changed with the `fseek` function, and file position on a file descriptor can be changed using the `lseek` function.
 
     - File position on a file descriptor is just an integer which is initialized to 0 and incremented with each written character.
 
