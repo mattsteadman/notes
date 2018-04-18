@@ -11,7 +11,7 @@
 |`Win` + `E`                   | **E**xplorer window                                                            |
 |`Win` + `R`                   | **R**un window                                                                 |
 |`Win` + `P`                   | Selecting mode of muliple displays (select the "**P**resentation Display Mode")|
-|`Win` + `number`              | Select window in position [num] in task bar                                    |
+|`Win` + `number`              | Select window in position `number` in task bar                                 |
 |`Win` + `Pause`               | Open system properties                                                         |
 |`Ctrl` + `Shift` + `Esc`      | Task Manager                                                                   |
 
