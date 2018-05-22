@@ -69,7 +69,7 @@ A FULL outer join will retain rows in the tables on BOTH sides of the JOIN keywo
 
 You can also call these a left join, right join, full join.
 
-There is no implicit notation outer joins.
+There is no implicit notation for outer joins.
 
 - LEFT OUTER:
 
