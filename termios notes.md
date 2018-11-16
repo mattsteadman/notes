@@ -19,18 +19,18 @@ for the program to read input before it suspends it
 `Ctrl`+`M`: Should produce `0x0C` (because it's the 13th letter), but the terminal converts `'\r'` (`0x0C`) to `'\n'` (`0x0A`) when the `ICRNL` flag is on
 
 
-local modes (`c_lflag`):
+#### local modes (`c_lflag`):
 
 `ECHO`: echo what you type
 
 `ICANON`: canonical mode, wait for enter to read input
 
-`ISIG`: respond to SIGINT/SIGTSTP
+`ISIG`: respond to `SIGINT`/`SIGTSTP`
 
 `IEXTEN` 
 
 
-input modes (`c_iflag`):
+#### input modes (`c_iflag`):
 
 `ICRNL`: converts `'\r'` (`0x0C`) to `'\n'` (`0x0A`)
 
@@ -43,17 +43,17 @@ input modes (`c_iflag`):
 `ISTRIP`: Strips the 8th bit of every byte (like you're not holding `Ctrl` on an old keyboard)
 
 
-output modes (`c_oflag`):
+#### output modes (`c_oflag`):
 
 `OPOST`: output processing, prints '\r\n' when asked to print '\n'
 
 
-control modes (`c_cflag`):
+#### control modes (`c_cflag`):
 
 `CS8`: Sets byte size to 8 bits. A mask, not flag.
 
 
-`c_cc` array:
+#####  `c_cc` array:
 
 `VMIN`: minimum number of bytes that read needs before returning
 
